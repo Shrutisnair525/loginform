@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="registrationform.css">
+    <title> Registration form </title>
+  </head>
+
+  <body>
+
+      <div class="registration">
+        <form action="registrationsuccess.html">
+          <div class="userform">
+            <h3>User Registration Form!!! </h3>
+          </div>
+
+      <div class="personal">
+        <div class="insideheading">
+          <h4> Personal Details </h4>
+        </div>
+
+        <div class="details">
+
+        <div class="entry">
+          <label class="leftside"> Name: </label>
+          <input class="rightside" type="text" id="Name" /> <br/>
+        </div>
+
+        <div class="entry">
+          <label class="leftside"> Address: </label>
+          <textarea class="rightsideaddress" name="address" rows="5" > </textarea> <br/>
+        </div>
+
+        <div class="entry">
+          <label class="leftside">PIN Code: </label>
+          <input class="rightside" type="text" name="PIN" size="6" /> <br/>
+        </div>
+
+        <div class="entry">
+          <label class="leftside">Phone No: </label>
+          <input class="rightside" type="text" name="phone" /> <br/>
+        </div>
+
+        <div class="entry">
+          <label class="leftside"> Age: </label>
+          <input class="rightside"type="text" name="Age" size="2"/>
+        </div>
+
+        <div class="entry">
+          <label class="leftside"> Gender: </label>
+          <div class="rightradiobutton">
+            <div>
+            <input class="radiorightside"type="radio" name="Gender" value="Male" /> <label class="radiotext"> Male</label>
+          </div>
+          <div>
+            <input class="radiorightside" type="radio" name="Gender" value="Female"/> <label class="radiotext"> Female </label>
+          </div>
+        </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="space">
+    </div>
+
+    <div class="education">
+      <div class="insideheading">
+        <h4> Educational Details </h4>
+      </div>
+      <div class="subheading">
+        <p>Graduation Details </p>
+      </div>
+
+      <div class="study">
+        <div class="entry">
+            <label class="leftside"> Name of college: </label>
+            <input class="rightside"type="text" name="college"/>
+        </div>
+        <div class="entry">
+            <label class="leftside"> Name of the university: </label>
+            <input class="rightside"type="text" name="university"/>
+        </div>
+        <div class="entry">
+            <label class="leftside"> Percentage of Marks: </label>
+            <input class="rightside"type="text" name="marks"/>
+        </div>
+      </div>
+
+      <div class="subheading">
+        <p>Higher Seconadry Education Details </p>
+      </div>
+
+      <div class="study">
+        <div class="entry">
+            <label class="leftside"> Name of school: </label>
+            <input class="rightside"type="text" name="college"/>
+        </div>
+        <div class="entry">
+            <label class="leftside"> Board of examination: </label>
+            <input class="rightside"type="text" name="university"/>
+        </div>
+        <div class="entry">
+            <label class="leftside"> Percentage of Marks: </label>
+            <input class="rightside"type="text" name="marks"/>
+        </div>
+      </div>
+      <div class="subheading">
+        <p>Seconadry Education Details </p>
+      </div>
+
+      <div class="study">
+        <div class="entry">
+            <label class="leftside"> Name of school: </label>
+            <input class="rightside"type="text" name="college"/>
+        </div>
+        <div class="entry">
+            <label class="leftside"> Board of examination: </label>
+            <input class="rightside"type="text" name="university"/>
+        </div>
+        <div class="entry">
+            <label class="leftside"> Percentage of Marks: </label>
+            <input class="rightside"type="text" name="marks"/>
+        </div>
+      </div>
+      </div>
+      <div class="space">
+      </div>
+    <button id="submitbutton" type="submit" onclick=" return registerFunction()">SUBMIT</button>
+
+    </form>
+</div>
+  <script type="text/javascript" src="registerdetails.json"></script>
+  <script src="validationregistration.js" type="text/javascript"></script>
+</body>
+</html>

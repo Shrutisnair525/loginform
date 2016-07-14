@@ -1,0 +1,23 @@
+body{
+  background: url("success.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 500px;
+  margin: 0 auto;
+}
+p{
+  font-size: 35px;
+  font-family: cursive;
+  color: #b1cee4;
+  text-align: center;
+}
